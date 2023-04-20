@@ -24,6 +24,7 @@ public class Candidate {
     private String aadharNumber;
     private int experience;
     private String skills;
+    private String role;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     private Date availableDate;
