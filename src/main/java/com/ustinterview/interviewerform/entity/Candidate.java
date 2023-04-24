@@ -26,8 +26,9 @@ public class Candidate {
     private String skills;
     private String role;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+//    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     private Date availableDate;
+
     private String availableTime;
 
 }
