@@ -14,6 +14,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/interview")
+@CrossOrigin("*")
 public class CandidateController {
 
     @Autowired
